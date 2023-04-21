@@ -20,6 +20,3 @@ fn cosine_similarity(val: &[f64], va: &[f64]) -> f64 {
 
 And the results:  The Bard poems were more similar to each other in the cosine similarity metric than the ChatGPT poems, however, Bard wrote both the longest poem and the shortest.  In mean and median poem lengths, ChatGPT tended to write longer poems.  With a smaller difference in word range, the teacher might pick up on ChatGPT from that point of view, whilst Bard had a greater range of different layouts but more similar word frequencies.
 In conclusion, I felt that I had a personal preference for the ChatGPT poems, although their more consistent layout compared to Bard poems could prove a way for our teacher to identify AI use.
-
-
-
