@@ -1,4 +1,4 @@
-**A Data Science View of ChatGPT and Bard
+**A Data Science View of ChatGPT and Bard**
 
 What if a Teacher asked the class to write a nonsense poem as a creative task for homework.  If a whole class of 35, uses ChatGPT or Bard to write a nonsense poem about a runcible spoon – would the teacher be able to tell?  In other words, is the output repetitive if asked to carry out a specific task several times.  Even the number of verses or a pattern in the length of the sentences could alert our teacher and the game could be up!
 
