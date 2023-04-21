@@ -9,7 +9,7 @@ I compared the poems with the cosine similarity metric of the word frequencies a
 
 ```
 fn cosine_similarity(val: &[f64], va: &[f64]) -> f64 {
-    let dot: f64 = val.iter().copied().zip(va.iter().copied()).map(|(a,b)| a * b).sum();
+    let dot: f64 = val.iter().zip(va.iter()).map(|(a,b)| a * b).sum();
     let sq1 = val.iter().map(|x| x * x).sum::<f64>();
     let sq2 = va.iter().map(|y| y * y).sum::<f64>();
     let prods = sq1.sqrt() * sq2.sqrt();
